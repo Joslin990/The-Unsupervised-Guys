@@ -103,8 +103,8 @@ if (nav) {
 }
 
 const syncLatestUploadOverlay = async () => {
-    const YT_API_KEY = "AIzaSyBsBNTy35Qe2hhWfwiLtbPdOA1M7JmRQaw";
-    const CHANNEL_ID = "UCMPguzj3FhfshH50x4LaJEA";
+    const YT_API_KEY =
+    const CHANNEL_ID = 
     const firstWrapper = document.querySelector(".video-embed-wrap");
     const latestIframe = firstWrapper?.querySelector(".featured-video");
     const latestLink = firstWrapper?.querySelector(".video-overlay-list a");
